@@ -1,0 +1,25 @@
+From 7a75bc92c5498c0fe31ad000549479be6d2f144b Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Wed, 27 Feb 2008 18:28:40 +0200
+Subject: [PATCH] Manual page: remove word Debian
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ iprint.1 |    4 +---
+ 1 files changed, 1 insertions(+), 3 deletions(-)
+
+diff --git a/iprint.1 b/iprint.1
+index 012d508..f4e701f 100644
+--- a/iprint.1
++++ b/iprint.1
+@@ -21,6 +21,4 @@ the program functions.
+ .SH "SEE ALSO"
+ ascii(7)
+ .SH AUTHOR
+-This manual page was written by Paul Russell <prussell@alderaan.franken.de>,
+-for the Debian GNU/Linux system (but may be used by others).
+-
++This manual page was written by Paul Russell <prussell@alderaan.franken.de>.
+-- 
+1.5.3.8
+

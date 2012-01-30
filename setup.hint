@@ -1,0 +1,6 @@
+sdesc: "Command-line integer, hex, octal and ascii print utility"
+ldesc: "A simple utility to print out the decimal, octal, hexadecimal, and
+binary or ascii values of the characters fed to it on the command
+line."
+category: Utils
+requires: cygwin

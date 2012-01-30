@@ -1,0 +1,37 @@
+From cbf536d173bb9f4458274e7df2aeb62bf26acc64 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Wed, 27 Feb 2008 18:51:35 +0200
+Subject: [PATCH] Manual page: change name from i to iprint
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ iprint.1 |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/iprint.1 b/iprint.1
+index f4e701f..4d60843 100644
+--- a/iprint.1
++++ b/iprint.1
+@@ -1,8 +1,8 @@
+ .TH i 1
+ .SH NAME
+-i \- trivial integer print utility
++iprint \- trivial integer print utility
+ .SH SYNOPSIS
+-.B i
++.B iprint
+ .I "arguments ..."
+ .SH "DESCRIPTION"
+ Given one or more arguments on the command line, it will print them in
+@@ -14,7 +14,7 @@ if an argument begins with a digit, it is assumed to be a decimal
+ number.  Otherwise, the argument is treated as one ASCII character at
+ a time.
+ .SH OPTIONS
+-.B i
++.B iprint
+ doesn't take any options, but invoking it it with any arbitrary text string,
+ such as "1234", "\-\-help", etc., would demonstrate how
+ the program functions.
+-- 
+1.5.3.8
+

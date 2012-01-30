@@ -1,0 +1,63 @@
+iprint
+------------------------------------------
+
+Command-line integer, hex, octal and ascii print utility
+
+A simple utility to print out the decimal, octal, hexadecimal, and
+binary or ascii values of the characters fed to it on the command
+line.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/iprint
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Andrew Tridgell <tridge@samba.org>
+  Bugs: Andrew Tridgell <tridge@samba.org>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack iprint-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./iprint*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------------------------------
+
+Port Notes:
+- No manual page. Copied from Debian.
+
+----- version 1.3-1 -----
+- Initial release 2008-02-27 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later
